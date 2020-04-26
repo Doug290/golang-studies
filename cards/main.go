@@ -3,13 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	// var card string = "Ace of Spades"
-	card := newCard()
+	cards := []string{"Ace of Diamonds", newCard()}
+	cards = append(cards, "Six of Spades")
 
-	fmt.Println(card)
+	fmt.Println(cards)
 }
 
 func newCard() string {
 	return "Five of Diamonds"
-	tew
 }
