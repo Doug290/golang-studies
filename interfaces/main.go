@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// if you want to fullfil/satisfy the interface bot
+// you must implement a getGreeting func that returns a string
 type bot interface {
 	getGreeting() string
 }
