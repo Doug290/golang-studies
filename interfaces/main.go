@@ -32,4 +32,3 @@ func (spanishBot) getGreeting() string {
 	// VERY custom logic for generation an enlsh greeting
 	return "Hola!"
 }
-
