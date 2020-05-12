@@ -21,5 +21,4 @@ func main() {
 	//fmt.Println(string(bs))
 
 	io.Copy(os.Stdout, resp.Body)
-
 }
